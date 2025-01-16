@@ -13,7 +13,7 @@ bool subsetSumToK(int n, int k, vector<int> &arr) {
            //the logic of prev line of code-
            // if till using all elements till indx i....it is not possible to make a 
            // current target sum ....then the only option for that target sum to be possible 
-           //till i+1 th indx is till ith index targetsum - arr[i] is possible 
+           //*****before i+1 th indx is till ith index targetsum - arr[i] is possible 
        
             else
             dp[i+1][j]=dp[i][j];
